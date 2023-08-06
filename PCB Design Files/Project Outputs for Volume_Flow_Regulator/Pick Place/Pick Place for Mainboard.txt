@@ -1,0 +1,30 @@
+Altium Designer Pick and Place Locations
+C:\Users\Public\Documents\Altium\Volume_Flow_Regulator\Project Outputs for Volume_Flow_Regulator\Pick Place\Pick Place for Mainboard.txt
+
+========================================================================================================================
+File Design Information:
+
+Date:       04/11/22
+Time:       11:18
+Revision:   716cee607ba31824df567711ce68a211f5cee8e5
+Variant:    No variations
+Units used: mil
+
+Designator Comment       Layer    Footprint        Center-X(mil) Center-Y(mil) Rotation Description                                                                                                                  
+JUMPER     Comment       TopLayer RAD-0.2          2440.945      1358.268      0        ""                                                                                                                           
+Y1         16MHz         TopLayer FOX-FOXSLF160-20 1003.937      829.134       90       "Resistance Weld Thru-Hole Crystal, 16 MHz, -20 to 70 degC, 2-Pin THD, RoHS, Bulk"                                           
+U2         LM7805CT      TopLayer FAIR-TO-220-3    295.275       1770.079      180      "Positive Voltage Regulator, 5 V, 1 A, -40 to 125 degC, 3-Pin TO-220, RoHS, Tube"                                            
+U1         ATMEGA328P-PU TopLayer ATML-28P3        1574.803      1338.583      0        "8-Bit Microcontroller with 32 KBytes In-System Programmable Flash, 23 I/Os, -40 to 85 degC, 28-Pin PDIP (28P3), RoHS, Tube" 
+R1         10K           TopLayer AXIAL-0.4        1082.677      1594.489      90       Resistor                                                                                                                     
+P6         SW            TopLayer HDR1X2           2795.276      1388.583      270      "Header, 2-Pin"                                                                                                              
+P5         POWER         TopLayer HDR1X2           2795.276      1938.189      90       "Header, 2-Pin"                                                                                                              
+P4         ENCODER       TopLayer HDR1X5           2086.614      2145.669      90       "Header, 5-Pin"                                                                                                              
+P3         BUTTON        TopLayer HDR1X3           2086.614      1456.693      90       "Header, 3-Pin"                                                                                                              
+P2         MOTOR         TopLayer HDR1X6           2086.614      658.661       90       "Header, 6-Pin"                                                                                                              
+P1         I2C           TopLayer HDR1X4           1290.157      2421.259      180      "Header, 4-Pin"                                                                                                              
+D1         1N4007-E3/54  TopLayer FP-1N4007-MFG    2795.276      669.291       90       "DIODE GEN PURP 1KV 1A DO204AL"                                                                                              
+C5         10uF          TopLayer CAPR5-4X5        728.347       1850.394      270      Capacitor                                                                                                                    
+C4         10uF          TopLayer CAPR5-4X5        2440.945      984.252       90       Capacitor                                                                                                                    
+C3         1uF           TopLayer CAPR5-4X5        2440.945      1751.969      270      Capacitor                                                                                                                    
+C2         22pF          TopLayer FP-RCE0DB-MFG    551.181       551.181       90       "Cap Ceramic 22pF 50V C0G ±5% Radial 2.5mm +125°C Ammo Pack"                                                                 
+C1         22pF          TopLayer FP-RCE0DB-MFG    551.181       1102.362      90       "Cap Ceramic 22pF 50V C0G ±5% Radial 2.5mm +125°C Ammo Pack"                                                                 

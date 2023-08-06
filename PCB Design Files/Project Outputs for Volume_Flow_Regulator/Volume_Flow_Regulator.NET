@@ -1,0 +1,119 @@
+Wire List
+
+<<< Component List >>>
+22pF                            C1             FP-RCE0DB-MFG
+22pF                            C2             FP-RCE0DB-MFG
+1uF                             C3             CAPR5-4X5
+10uF                            C4             CAPR5-4X5
+10uF                            C5             CAPR5-4X5
+I2C                             P1             HDR1X4
+MOTOR                           P2             HDR1X6
+BUTTON                          P3             HDR1X3
+ENCODER                         P4             HDR1X5
+POWER                           P5             HDR1X2
+SW                              P6             HDR1X2
+10K                             R1             AXIAL-0.4
+ATMEGA328P-PU                   U1             ATML-28P3
+LM7805CT                        U2             FAIR-TO-220-3
+16MHz                           Y1             FOX-FOXSLF160-20
+
+<<< Wire List >>>
+
+  NODE  REFERENCE  PIN #   PIN NAME       PIN TYPE    PART VALUE
+
+[00028] X2
+
+[00027] X1
+        C1         1       1              PASSIVE     22pF
+        U1         9       PB6 (PCINT6/XTAI/O         ATMEGA328P-PU
+        Y1         2       2              PASSIVE     16MHz
+
+[00026] P1
+        R1         2       2              PASSIVE     10K
+        U1         1       PC6 (PCINT14/R\I/O         ATMEGA328P-PU
+
+[00016] NetC2_1
+        C2         1       1              PASSIVE     22pF
+        U1         10      PB7 (PCINT7/XTAI/O         ATMEGA328P-PU
+        Y1         1       1              PASSIVE     16MHz
+
+[00015] IN
+        P5         1       1              PASSIVE     POWER
+        P6         1       1              PASSIVE     SW
+
+[00014] GND
+        C1         2       2              PASSIVE     22pF
+        C2         2       2              PASSIVE     22pF
+        C3         2       2              PASSIVE     1uF
+        C4         2       2              PASSIVE     10uF
+        C5         2       2              PASSIVE     10uF
+        P1         4       4              PASSIVE     I2C
+        P2         6       6              PASSIVE     MOTOR
+        P3         3       3              PASSIVE     BUTTON
+        P4         5       5              PASSIVE     ENCODER
+        P5         2       2              PASSIVE     POWER
+        U1         8       GND            POWER       ATMEGA328P-PU
+        U1         22      GND            POWER       ATMEGA328P-PU
+        U2         2       GND            POWER       LM7805CT
+
+[00013] D13
+        P3         2       2              PASSIVE     BUTTON
+        U1         19      PB5 (SCK/PCINT5I/O         ATMEGA328P-PU
+
+[00012] D12
+        P3         1       1              PASSIVE     BUTTON
+        U1         18      PB4 (MISO/PCINTI/O         ATMEGA328P-PU
+
+[00011] D11
+        P2         4       4              PASSIVE     MOTOR
+        U1         17      PB3 (MOSI/OC2A/I/O         ATMEGA328P-PU
+
+[00010] D10
+        P2         3       3              PASSIVE     MOTOR
+        U1         16      PB2 (S\S\/OC1B/I/O         ATMEGA328P-PU
+
+[00009] D9
+        P2         2       2              PASSIVE     MOTOR
+        U1         15      PB1 (OC1A/PCINTI/O         ATMEGA328P-PU
+
+[00008] D8
+        P2         1       1              PASSIVE     MOTOR
+        U1         14      PB0 (PCINT0/CLKI/O         ATMEGA328P-PU
+
+[00007] A5
+        P1         1       1              PASSIVE     I2C
+        U1         28      PC5 (ADC5/SCL/PI/O         ATMEGA328P-PU
+
+[00006] A4
+        P1         2       2              PASSIVE     I2C
+        U1         27      PC4 (ADC4/SDA/PI/O         ATMEGA328P-PU
+
+[00005] A3
+        P4         3       3              PASSIVE     ENCODER
+        U1         26      PC3 (ADC3/PCINTI/O         ATMEGA328P-PU
+
+[00004] A2
+        P4         2       2              PASSIVE     ENCODER
+        U1         25      PC2 (ADC2/PCINTI/O         ATMEGA328P-PU
+
+[00003] A1
+        P4         1       1              PASSIVE     ENCODER
+        U1         24      PC1 (ADC1/PCINTI/O         ATMEGA328P-PU
+
+[00002] 12V
+        C4         1       1              PASSIVE     10uF
+        P6         2       2              PASSIVE     SW
+        U2         1       IN             INPUT       LM7805CT
+
+[00001] 5V
+        C3         1       1              PASSIVE     1uF
+        C5         1       1              PASSIVE     10uF
+        P1         3       3              PASSIVE     I2C
+        P2         5       5              PASSIVE     MOTOR
+        P4         4       4              PASSIVE     ENCODER
+        R1         1       1              PASSIVE     10K
+        U1         7       VCC            POWER       ATMEGA328P-PU
+        U1         20      AVCC           POWER       ATMEGA328P-PU
+        U1         21      AREF           POWER       ATMEGA328P-PU
+        U2         3       OUT            OUTPUT      LM7805CT
+
